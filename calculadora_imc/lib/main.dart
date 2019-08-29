@@ -122,9 +122,8 @@ class _HomePageState extends State<HomePage> {
               child: Center(
                 child: Text(pessoa.imc,
                     textAlign: TextAlign.center,
-                    style: TextStyle(
-                        fontSize: 24.0,
-                        fontWeight: FontWeight.bold)),
+                    style:
+                        TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold)),
               ),
             ),
             Padding(
