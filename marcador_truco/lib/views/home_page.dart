@@ -9,8 +9,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  var _playerOne = Player(name: "Nós", score: 0, victories: 0);
-  var _playerTwo = Player(name: "Eles", score: 0, victories: 0);
+  var _playerOne = Player(name: 'Nós', score: 0, victories: 0);
+  var _playerTwo = Player(name: 'Eles', score: 0, victories: 0);
+  
 
   void maoFerro(Player player, Player player2) {
     if (player.score == player2.score) {
